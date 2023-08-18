@@ -4,11 +4,16 @@ import 'package:get/get.dart';
 
 import 'package:math_expressions/math_expressions.dart';
 
+
+/// MATEMATİKSEL İŞLEMLERİN GERÇEKLEŞTİĞİ SAYFA
+///
+
+
 class CalculateController extends GetxController {
   var userInput = "";
   var userOutput = "";
 
-  // Equal Button
+  // Equal Button - eşittir butonu
   equalPressed() {
     try {
       String userInputFC = userInput;

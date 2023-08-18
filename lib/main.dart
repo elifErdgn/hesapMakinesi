@@ -8,9 +8,9 @@ import 'controller/theme_model.dart';
 import 'home_page.dart';
 
 void main() {
-  WidgetsFlutterBinding.ensureInitialized();
+  WidgetsFlutterBinding.ensureInitialized(); /// Basit bir cevap, Flutter'ın runApp'ı çağırmadan önce yerel kodu çağırması gerekiyorsa,
   SystemChrome.setPreferredOrientations(
-      [DeviceOrientation.portraitUp, DeviceOrientation.portraitDown]);
+      [DeviceOrientation.portraitUp, DeviceOrientation.portraitDown]);/// ekranın yan çevrilmesi
   runApp(const MyApp());
 }
 
